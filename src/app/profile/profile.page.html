@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>My Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+      <ion-avatar>
+      <img src="/assets/user.png">
+    </ion-avatar>
+    <ion-card-content>
+      <ion-card-title text-center>
+@emailid
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item routerLink="/login">Log Out</ion-item>
+  </ion-list>
+
+</ion-content>
